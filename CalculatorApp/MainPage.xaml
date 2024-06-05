@@ -5,7 +5,7 @@
              Shell.NavBarIsVisible="False">
 
     <ScrollView>
-        <Grid Padding="10" BackgroundColor="#646473" RowSpacing="20" ColumnSpacing="10">
+        <Grid Padding="20" BackgroundColor="#646473" RowSpacing="20" ColumnSpacing="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
@@ -41,28 +41,30 @@
                             Radius="20"></Shadow>
                 </Frame.Shadow>
             </Frame>
-            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="0" CornerRadius="15">
+            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="0" CornerRadius="15" Text="C" FontAttributes="Bold" FontSize="24">
                 <Button.Shadow>
                     <Shadow Opacity="0.5"
                              Offset="15,15"
                              Radius="20"></Shadow>
                 </Button.Shadow>
             </Button>
-            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="1" CornerRadius="15">
+            <Button BackgroundColor="#adb3ff"  Grid.Row="2" Grid.Column="1" CornerRadius="15">
+                <Button.ImageSource>
+                    <FileImageSource File="bksp.png"></FileImageSource>
+                </Button.ImageSource>
+                <Button.Shadow>
+                    <Shadow Opacity="0.5" Offset="15,15" Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+
+            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="2" CornerRadius="15" Text="%" FontAttributes="Bold" FontSize="24">
                 <Button.Shadow>
                     <Shadow Opacity="0.5"
              Offset="15,15"
              Radius="20"></Shadow>
                 </Button.Shadow>
             </Button>
-            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="2" CornerRadius="15">
-                <Button.Shadow>
-                    <Shadow Opacity="0.5"
-             Offset="15,15"
-             Radius="20"></Shadow>
-                </Button.Shadow>
-            </Button>
-            <Button BackgroundColor="#ff8181" Grid.Row="2" Grid.Column="3" CornerRadius="15">
+            <Button BackgroundColor="#ff8181" Grid.Row="2" Grid.Column="3" CornerRadius="15" Text="/" FontAttributes="Bold" FontSize="24">
                 <Button.Shadow>
                     <Shadow Opacity="0.5"
              Offset="15,15"
@@ -70,6 +72,121 @@
                 </Button.Shadow>
             </Button>
 
+
+            <Button BackgroundColor="#7c7992" Grid.Row="3" Grid.Column="0" CornerRadius="15" Text="7"  FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                 Offset="15,15"
+                 Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="3" Grid.Column="1" CornerRadius="15" Text="8" FontSize="24" >
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="3" Grid.Column="2" CornerRadius="15" Text="9" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#ff8181" Grid.Row="3" Grid.Column="3" CornerRadius="15" Text="x" FontAttributes="Bold" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+
+
+
+            <Button BackgroundColor="#7c7992" Grid.Row="4" Grid.Column="0" CornerRadius="15" Text="4"  FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                 Offset="15,15"
+                 Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="4" Grid.Column="1" CornerRadius="15" Text="5" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="4" Grid.Column="2" CornerRadius="15" Text="6" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#ff8181" Grid.Row="4" Grid.Column="3" CornerRadius="15" Text="-" FontAttributes="Bold" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+
+
+            <Button BackgroundColor="#7c7992" Grid.Row="5" Grid.Column="0" CornerRadius="15" Text="1"  FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+      Offset="15,15"
+      Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="5" Grid.Column="1" CornerRadius="15" Text="2" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                  Offset="15,15"
+                  Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="5" Grid.Column="2" CornerRadius="15" Text="3" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                  Offset="15,15"
+                  Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#ff8181" Grid.Row="5"  Grid.Column="3" CornerRadius="15" Text="+" FontAttributes="Bold" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                  Offset="15,15"
+                  Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+
+
+
+            
+            <Button BackgroundColor="#7c7992" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" CornerRadius="15" Text="0" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                  Offset="15,15"
+                  Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#7c7992" Grid.Row="6" Grid.Column="2" CornerRadius="15" Text="." FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                  Offset="15,15"
+                  Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#ff8181" Grid.Row="6"  Grid.Column="3" CornerRadius="15" Text="=" FontAttributes="Bold" FontSize="24">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                  Offset="15,15"
+                  Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
 
         </Grid>
     </ScrollView>
