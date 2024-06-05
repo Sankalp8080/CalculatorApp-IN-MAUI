@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorApp.MainPage"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <Grid Padding="10" BackgroundColor="#646473" RowSpacing="20" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Frame Grid.Row="0"
+                    Grid.ColumnSpan="4"
+                    Grid.RowSpan="2"
+                    BackgroundColor="#c4e5c6"
+                    HasShadow="True"
+                   HeightRequest="250">
+                <Label Text="0" 
+                       HorizontalOptions="End"
+                       FontSize="58"
+                       FontAttributes="Bold"
+                       VerticalOptions="End"                     
+                ></Label>
+                <Frame.Shadow>
+                    <Shadow Opacity="0.5"
+                            Offset="15,15"
+                            Radius="20"></Shadow>
+                </Frame.Shadow>
+            </Frame>
+            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="0" CornerRadius="15">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+                             Offset="15,15"
+                             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="1" CornerRadius="15">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+             Offset="15,15"
+             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#adb3ff" Grid.Row="2" Grid.Column="2" CornerRadius="15">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+             Offset="15,15"
+             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="#ff8181" Grid.Row="2" Grid.Column="3" CornerRadius="15">
+                <Button.Shadow>
+                    <Shadow Opacity="0.5"
+             Offset="15,15"
+             Radius="20"></Shadow>
+                </Button.Shadow>
+            </Button>
+
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
