@@ -23,9 +23,16 @@ namespace CalculatorApp
         private void btnSQRT(object sender, EventArgs e)
         {
             _firstNumber = Convert.ToDouble(_current);
-            lblResult.Text = Math.Sqrt(_firstNumber).ToString();
-            _current = "";
+            if (_firstNumber != 0)
+            {
+                lblResult.Text = Math.Pow(_firstNumber, 2).ToString();
+                _current = "";
+            }
+            else
+            {
+                lblResult.Text = "Invalid Operation";
 
+            }
         }
 
         private void btnOperatorSelect(object sender, EventArgs e)
@@ -53,7 +60,7 @@ namespace CalculatorApp
                 case "-":
                     lblResult.Text = (_firstNumber - _secondNumber).ToString();
                     break;
-                case "*":
+                case "x":
                     lblResult.Text = (_firstNumber * _secondNumber).ToString();
                     break;
                 case "/":
