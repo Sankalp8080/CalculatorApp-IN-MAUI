@@ -49,7 +49,7 @@
                              Radius="20"></Shadow>
                 </Button.Shadow>
             </Button>
-            <Button BackgroundColor="#adb3ff" Clicked="btnSQRT" Grid.Row="2" Text="√" Grid.Column="1" CornerRadius="15">
+            <Button BackgroundColor="#adb3ff" Clicked="btnSQRT" Grid.Row="2" FontSize="24" FontAttributes="Bold" Text="x²" Grid.Column="1" CornerRadius="15">
                 <Button.Shadow>
                     <Shadow Opacity="0.5" Offset="15,15" Radius="20"></Shadow>
                 </Button.Shadow>
